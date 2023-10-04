@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 20px 130px;
+}
+
+nav .slash {
+  background: #033C5B;
+  padding: 3px 9px;
+  font-weight: bolder;
+  color: #EFF2F5;
+}
+
+nav .Logo {
+  color: #EFF2F5;
+}
+
+header {
+  color: #fff;
+  background-image: url("images/background_img.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.CONTENT {
+  z-index: 1;
+  position: relative;
+}
+
+header .headerContent {
+  padding: 10px 130px;
+  margin-top: 2%;
+}
+
+header .headerContent p {
+  padding: 5px 0px;
+  width: 50%;
+  line-height: 20px;
+  margin: 20px 0px;
+}
+
+.btn {
+  border: none;
+  background: #a60000;
+  padding: 13px 62px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* First */
+.features .container {
+  display: flex;
+  padding: 20px 40px;
+}
+
+.features .feat {
+  margin: 30px 88px;
+  
+}
+
+.features .feat i {
+  font-size: 40px;
+  color: #033C5B;
+}
+
+.features .feat h3 {
+  margin: 15px 0;
+  color: #033C5B;
+}
+
+.features .feat p {
+  line-height: 22px;
+  color: #033C5B;
+}
+
+/* Seconed */
+
+.works .container h2 {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.works .container .numberForDivs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+.works .container .numberForDivs .one,
+.two,
+.three {
+  background-color: #FDB73F;
+  padding: 12px 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.works .container .numberForDivs .two::before {
+  content: '';
+  position: absolute;
+  top: 21px;
+  left: 260px;
+  width: 28%;
+  height: 15%;
+  background-color: #FDB73F;
+}
+
+.works .container .numberForDivs .three::before {
+  content: '';
+  position: absolute;
+  top: 21px;
+  right: 260px;
+  width:  28%;
+  height: 15%;
+  background-color: #FDB73F;
+}
+
+.works .container .workscontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.works .container h2 {
+  color: #033C5B;
+}
+
+.works .container .workscontent  .workscontent2 {
+  padding: 0px 65px;
+}
+
+.works .container .workscontent  .workscontent2 h3 {
+  margin: 15px 0;
+  color: #033C5B;
+}
+
+.works .container .workscontent  .workscontent2 p {
+  line-height: 22px;
+  color: #033C5B;
+}
+
+/* Thrid */
+.road {
+  background: #EBF4F7;
+  padding: 10px;
+}
+
+.road .container {
+  margin: 50px;
+  text-align: center;
+}
+
+.road .container h2{
+  color: #033C5B;
+}
+
+.road .container p {
+  padding: 20px 395px;
+  font-size: 20px;
+  color: #033C5B;
+  margin: 15px 0;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  margin: 30px 5px;
+}
+
+footer .About1,
+.About2,
+.About3 {
+  margin: 0px 75px;
+}
+
+footer .About1,
+.About2,
+.About3 h4{
+  color: #033C5B;
+}
+
+footer .About1 .Logo .slash {
+  background: #033C5B;
+  color: #fff;
+  padding: 3px 9px;
+  font-weight: bolder;
+}
+
+footer .About1 p,
+.About2 p,
+.About3 p {
+  margin: 20px 0px;
+  width: 65%;
+  line-height: 25px;
+  color: #033C5B;
+}
+
+footer .About3 {
+  width: 30%;
+}
+
+footer .About3 span {
+  color: #033C5B;
+}
